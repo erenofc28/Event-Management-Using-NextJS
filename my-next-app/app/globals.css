@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* =========================
+   THEME VARIABLES
+   ========================= */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Tailwind v4 theme mapping */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-regale: var(--font-regale);
+  --font-butler: var(--font-butler);
+  --font-satoshi: var(--font-satoshi);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* =========================
+   BASE STYLES
+   ========================= */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-satoshi), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-regale), serif;
+}
+
+/* =========================
+   FONT UTILITIES (SAFE)
+   ========================= */
+.font-regale {
+  font-family: var(--font-regale);
+}
+
+
+.font-butler {
+  font-family: var(--font-butler), serif;
+}
+
+.font-satoshi {
+  font-family: var(--font-satoshi), system-ui, sans-serif;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* mobile styles */
+  .hero-content{
+    margin-top:200px
+  }
+}
+
+
+@media (max-width: 768px) {
+
+}
