@@ -4,11 +4,11 @@ import { FreeMode } from "swiper/modules";
 import "swiper/css";
 
 const images = [
-  "https://api.builder.io/api/v1/image/assets/TEMP/fca02e07ffb2b27d534cd40643db1a937d8ffd20?width=776",
-  "https://api.builder.io/api/v1/image/assets/TEMP/6451d0b205356c43f3c59c393f972b22cd13bffd?width=776",
-  "https://api.builder.io/api/v1/image/assets/TEMP/148e56a4834b75a7e62311b8c647e40d1a213b0b?width=960",
-  "https://api.builder.io/api/v1/image/assets/TEMP/81f9cb9774cd69b99ff27546d9ed204b7beaf131?width=776",
-  "https://api.builder.io/api/v1/image/assets/TEMP/d2f59ebc58893de21443fb1cc6e04eaeb7d125fd?width=776",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 export default function PortfolioSection() {

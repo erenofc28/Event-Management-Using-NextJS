@@ -3,6 +3,7 @@ import ContactForm from "../components/contactForm"
 import Footer from "../components/footer"
 import Hero from "../components/hero"
 import PlanningApproach from "../components/planningApproach"
+import FloatingWP from "../components/FloatingWhatsappIcon"
 // import { useState } from "react";
 export default function Services() {
   return (
@@ -100,7 +101,7 @@ export default function Services() {
   "
 >
   <img
-    src="https://api.builder.io/api/v1/image/assets/TEMP/c088a9648725e8dc1fd0d29864e4b19c0e4a5191?width=1580"
+    src="images/service1Left.png"
     alt="Elegant wedding decor"
     className="
       w-full
@@ -130,8 +131,7 @@ export default function Services() {
   "
 >
   <img
-    src="https://api.builder.io/api/v1/image/assets/TEMP/f925fc9d98025f2e167d6b40a050716474298c49?width=802"
-    alt=""
+    src="images/service1Right.png"
     className="
       w-full
       h-[300px]
@@ -205,7 +205,7 @@ export default function Services() {
     {/* SMALL LEFT IMAGE — DESKTOP */}
     <div className="hidden lg:block absolute top-0 left-0 z-30">
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/f925fc9d98025f2e167d6b40a050716474298c49?width=802"
+    src="images/service1Right.png"
         alt=""
         className="w-[20vw] h-[500px] object-cover "
       />
@@ -214,7 +214,7 @@ export default function Services() {
     {/* LARGE RIGHT IMAGE — DESKTOP */}
     <div className="hidden lg:block absolute top-0 right-12 z-20">
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/c088a9648725e8dc1fd0d29864e4b19c0e4a5191?width=1580"
+          src="images/service1Left.png"
         alt="Beautiful wedding photography"
         className="w-[37vw] h-[650px] object-cover mt-10 "
       />
@@ -223,12 +223,11 @@ export default function Services() {
     {/* MOBILE IMAGES (STACKED, SIMPLE) */}
     <div className="lg:hidden space-y-6 px-4 mt-8">
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/f925fc9d98025f2e167d6b40a050716474298c49?width=802"
-        alt=""
+           src="images/service1Right.png"
         className="w-full h-[220px] object-cover rounded-lg"
       />
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/c088a9648725e8dc1fd0d29864e4b19c0e4a5191?width=1580"
+    src="images/service1Left.png"
         alt="Beautiful wedding photography"
         className="w-full h-[300px] object-cover rounded-lg"
       />
@@ -293,7 +292,7 @@ export default function Services() {
   "
 >
   <img
-    src="https://api.builder.io/api/v1/image/assets/TEMP/c088a9648725e8dc1fd0d29864e4b19c0e4a5191?width=1580"
+       src="images/service1Left.png"
     alt="Elegant wedding decor"
     className="
       w-full
@@ -323,7 +322,7 @@ export default function Services() {
   "
 >
   <img
-    src="https://api.builder.io/api/v1/image/assets/TEMP/f925fc9d98025f2e167d6b40a050716474298c49?width=802"
+       src="images/service1Right.png"
     alt=""
     className="
       w-full
@@ -344,18 +343,7 @@ export default function Services() {
       </div>
 
       {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-8 right-8 z-50 hover:scale-110 transition-transform duration-300"
-      >
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/d909c78109f35d7ca2e9fe0aedd58fa72bd240bf?width=192"
-          alt="Contact us on WhatsApp"
-          className="w-16 h-16 lg:w-20 lg:h-20"
-        />
-      </a>
+<FloatingWP/>
     </div>
 
 <PlanningApproach/>

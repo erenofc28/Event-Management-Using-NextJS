@@ -13,7 +13,7 @@ export default function Footer() {
             {/* Logo */}
             <div className="mb-8 lg:mb-0">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/da220b8eeb35861e68729be785389aeaba71fe45?width=149" 
+                src="images/logo.png" 
                 alt="Kalakar Events"
                 className="h-12 lg:h-[75px] w-auto lg:transform  lg:origin-left mb-15"
               />

@@ -6,7 +6,7 @@ export default function aboutUs(){
       <section className="relative">
         <div className="relative aspect-[1640/699] overflow-hidden">
           <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/5f8aee67962146258bc95944b51903414e6fe27b?width=3280" 
+            src="images/aboutUs.png" 
             alt="Know about us" 
             className="w-full h-full object-cover"
           />

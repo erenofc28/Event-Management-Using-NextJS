@@ -23,7 +23,7 @@ export default function IntroductionSection (){
       {/* Full Width Image Section */}
       <section className="w-full">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/6db71393f2e8e80aaa06416500ce5022bc2b12cf?width=3840"
+          src="images/introSectionImg.png"
           alt="Wedding celebration moment"
           className="w-full h-auto object-cover"
         />

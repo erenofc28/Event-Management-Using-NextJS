@@ -21,7 +21,7 @@ export default function testimonial(){
             {/* Testimonial Card 1 */}
             <div className="relative aspect-[495/576] overflow-hidden rounded-lg group cursor-pointer">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/302a65b09fa0703cd8265c55c707e8bbaabb428a?width=990" 
+                src="images/testimonial1.png" 
                 alt="Pawan & Nithya testimonial" 
                 className="w-full h-full object-cover"
               />
@@ -49,7 +49,7 @@ export default function testimonial(){
             {/* Testimonial Card 2 */}
             <div className="relative aspect-[495/576] overflow-hidden rounded-lg group cursor-pointer">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/932c15e89ebf4a5b2d1b18f4d4fd050b8ac5c31a?width=994" 
+                 src="images/testimonial2.png" 
                 alt="Pawan & Nithya testimonial" 
                 className="w-full h-full object-cover"
               />
@@ -74,7 +74,7 @@ export default function testimonial(){
             {/* Testimonial Card 3 */}
             <div className="relative aspect-[495/576] overflow-hidden rounded-lg group cursor-pointer">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/fda354dbcaccdf031ccf3134f3384070038efc4e?width=990" 
+                 src="images/testimonial3.png" 
                 alt="Pawan & Nithya testimonial" 
                 className="w-full h-full object-cover"
               />

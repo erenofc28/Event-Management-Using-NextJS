@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <>
 <Hero content={"For effortlessly memorable events"}
-      bgImg={"https://api.builder.io/api/v1/image/assets/TEMP/44a009a0e7d8ab39912045de46819eaada9a5694?width=3840"}
+      bgImg={"images/homeScreenBg.png"}
 />
 
 
