@@ -1,15 +1,14 @@
 export default function BrandLogos() {
-const brands = [
-  {
-    name: "Test",
-    logo: (
-      <div className="w-[50px] h-[50px] bg-black flex items-center justify-center">
-        <span className="text-white">TEST</span>
-      </div>
-    )
-  }
-];
-
+  const brands = [
+    {
+      name: "Test",
+      logo: (
+        <div className="w-[50px] h-[50px] bg-black flex items-center justify-center">
+          <span className="text-white">TEST</span>
+        </div>
+      ),
+    },
+  ];
 
   return (
     <div className="w-full py-12 md:py-16 lg:py-20 bg-white">

@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-
 import localFont from "next/font/local";
 
 import "./globals.css";
-import Navbar from "./components/navbar"
-import {
-  Playfair_Display,
-  Libre_Baskerville,
-  DM_Sans,
-} from "next/font/google";
+
+import { Playfair_Display, Libre_Baskerville, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -50,8 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
- <body
-
+      <body
         className={`
            ${playfair.className}
 
@@ -66,54 +60,8 @@ export default function RootLayout({
           bg-red-500
         `}
       >
-    {/* <h1 className={playfair.className}>
-      For effortlessly memorable events
-    </h1> */}
         {children}
       </body>
     </html>
   );
 }
-
-
-                {/* <div className="relative min-h-screen w-full">
-
-      <div className="absolute inset-0 w-full h-full">
-        <img 
-            src="images/experience_bg.png"
-          alt="Elegant wedding celebration"
-          className="w-full h-full object-cover"
-        />
-      </div>
-
-
-      <div className="absolute inset-0 bg-black/60"></div>
-           
-      <header className="relative z-10 px-6 sm:px-12 lg:px-24 xl:px-[100px] py-7 lg:py-3 flex items-center justify-between">
-
-        <img
-          src="images/logo.png"
-          alt="kalakar events logo"
-          className="h-8 sm:h-10 lg:h-12 w-auto object-contain"
-        />
-
-
-<Navbar/>
-
-
-
-      </header>
-
-
-      <div className="relative z-10 flex items-center justify-center px-6 sm:px-12 lg:px-24">
-        <div className="w-full max-w-[1338px] flex flex-col items-center gap-6 sm:gap-8 lg:gap-[35px] text-center mt-12 sm:mt-20 lg:mt-32 xl:mt-40">
-    
-          <h1 className="font-regale text-white text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[120px] font-normal leading-[100%] tracking-[0.05em] sm:tracking-[0.06em]">
-            Experience Our Services
-          </h1>
-
-
-        </div>
-      </div>
-      
-    </div> */}

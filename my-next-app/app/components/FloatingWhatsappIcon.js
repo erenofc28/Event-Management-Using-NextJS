@@ -1,7 +1,7 @@
-export default function FloatingWP (){
-    return (<>
-    
-          <a
+export default function FloatingWP() {
+  return (
+    <>
+      <a
         href="https://wa.me/"
         target="_blank"
         rel="noopener noreferrer"
@@ -13,6 +13,6 @@ export default function FloatingWP (){
           className="w-16 h-16 lg:w-20 lg:h-20"
         />
       </a>
-    
-    </>)
+    </>
+  );
 }

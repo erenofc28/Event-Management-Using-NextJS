@@ -1,18 +1,17 @@
-export default function aboutUs(){
-    return (
-        <>
-        
+export default function aboutUs() {
+  return (
+    <>
       {/* Know About Us CTA Section */}
       <section className="relative">
         <div className="relative aspect-[1640/699] overflow-hidden">
-          <img 
-            src="images/aboutUs.png" 
-            alt="Know about us" 
+          <img
+            src="images/aboutUs.png"
+            alt="Know about us"
             className="w-full h-full object-cover"
           />
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/30"></div>
-          
+
           {/* CTA Text */}
           <div className="absolute inset-0 flex items-center justify-center">
             <h2 className="font-butler text-3xl md:text-5xl lg:text-[60px] font-extrabold tracking-[3px] leading-[140%] text-white text-center px-4">
@@ -21,6 +20,6 @@ export default function aboutUs(){
           </div>
         </div>
       </section>
-        </>
-    )
+    </>
+  );
 }

@@ -3,13 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode } from "swiper/modules";
 import "swiper/css";
 
-const images = [
-  "",
-  "",
-  "",
-  "",
-  "",
-];
+const images = ["", "", "", "", ""];
 
 export default function PortfolioSection() {
   return (
@@ -46,17 +40,18 @@ export default function PortfolioSection() {
           onProgress={(swiper) => {
             swiper.slides.forEach((slide) => {
               const absProgress = Math.abs(slide.progress);
-              
+
               // Only center is 1.0, sides drop to 0.7 quickly
-              const scale = 1 - (absProgress * 0.3);
+              const scale = 1 - absProgress * 0.3;
               const finalScale = Math.max(0.7, scale);
 
-              const inner = slide.querySelector('.slide-inner');
+              const inner = slide.querySelector(".slide-inner");
               if (inner) {
                 inner.style.transform = `scale(${finalScale})`;
-                inner.style.transition = "transform 400ms cubic-bezier(0.4, 0, 0.2, 1)";
+                inner.style.transition =
+                  "transform 400ms cubic-bezier(0.4, 0, 0.2, 1)";
               }
-              
+
               // Ensure center image is layered on top
               slide.style.zIndex = absProgress < 0.3 ? "10" : "1";
             });
@@ -81,8 +76,8 @@ export default function PortfolioSection() {
 
       {/* Footer Link */}
       <div className="mt-16 text-center">
-        <a 
-          href="#portfolio" 
+        <a
+          href="#portfolio"
           className="uppercase tracking-[0.2em] text-xs font-semibold text-gray-800 border-b border-gray-400 pb-1 hover:text-black transition-colors"
         >
           View All
